@@ -16,7 +16,7 @@ ul {
 
 li a:hover {
   background-color: black;
-  color: black;
+  color: white;
 
 }
 
@@ -40,8 +40,48 @@ li a:hover {
 .infoKontakt> p {
   padding-right: 10%;
   font-family: roboto;
-  font-weight: light;
+  font-weight: lighter;
   color: white;
+}
+
+.kontaktboks
+{
+  width: 35%;
+  background-color: white;
+  top: 50%;
+  height: auto;
+  position: absolute;
+  font-family: roboto;
+}
+
+.knap {
+  border-radius: 20px;
+  color: white;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: grey;
+  font-size: 12px;
+  border: none;
+}
+
+form {
+  margin: 35px;
+}
+
+.input-felt {
+  width: 90%;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid #777;
+  border-radius: 5px;
+}
+
+.tekst-felt {
+  height: 150px;
+  padding-top: 10px;
+  width: 91.5%;
+
 }
 
 .kontaktInfo {
@@ -59,7 +99,6 @@ li a:hover {
   width: 40%;
   height: auto%;
   background-size: cover;
-
 }
 
 
