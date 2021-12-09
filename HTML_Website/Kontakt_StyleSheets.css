@@ -30,6 +30,19 @@ li a:hover {
   padding: 0px;
 }
 
+.infoKontakt > h1 {
+  padding-right: 10%;
+  font-family: roboto;
+  font-weight: bold;
+  color: white;
+}
+
+.infoKontakt> p {
+  padding-right: 10%;
+  font-family: roboto;
+  font-weight: light;
+  color: white;
+}
 
 .kontaktInfo {
   display: flex;
@@ -46,20 +59,6 @@ li a:hover {
   width: 40%;
   height: auto%;
   background-size: cover;
-}
-
-.kontaktInfo > h1 {
-  padding-right: 10%;
-  font-family: roboto;
-  font-weight: bold;
-  color: white;
-}
-
-.kontaktInfo > p {
-  padding-right: 10%;
-  font-family: roboto;
-  font-weight: bold;
-  color: white;
 }
 
 
@@ -123,7 +122,6 @@ li a:hover {
 }
 
 .grid-container {
-  display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.5fr 0.9fr;
   grid-template-areas:
