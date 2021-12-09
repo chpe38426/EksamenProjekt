@@ -62,7 +62,7 @@ padding-right: 60px;
   color: BLACK;
   margin-top: 18px;
   padding: 10px;
-  background-color: red;
+  background-color: white;
   font-size: 32px;
   border: none;
   font-family: roboto;
@@ -101,9 +101,7 @@ form {
 }
 
 .kontaktInfo > img {
-  width: 40%;
-  height: auto%;
-  background-size: cover;
+  height: 909px;
 }
 
 
