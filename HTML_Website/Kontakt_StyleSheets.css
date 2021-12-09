@@ -52,6 +52,8 @@ li a:hover {
   height: auto;
   position: absolute;
   font-family: roboto;
+  font-weight: bolder;
+  border-radius: 2px;
 }
 
 .knap {
