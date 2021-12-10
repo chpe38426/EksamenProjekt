@@ -51,7 +51,7 @@ padding: 10px;
 position: relative;
 }
 
-.item7 > h1 {
+.item7 > h1, h3 {
   font-family: roboto;
   font-weight: bold;
   color: white;
