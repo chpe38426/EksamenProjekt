@@ -57,6 +57,13 @@ position: relative;
   color: white;
 }
 
+iframe {
+  frameborder=0;
+  border=0;
+  cellspacing=0;
+  
+}
+
 .wrapper {
       display: flex;
       grid-gap: 29px;
