@@ -61,7 +61,7 @@ iframe {
   frameborder=0;
   border=0;
   cellspacing=0;
-  
+
 }
 
 .wrapper {
@@ -249,7 +249,7 @@ background-color: grey;
     padding: 20px 16px;
     text-decoration: none;
     font-family: roboto;
-      border: 2px;
+    border: 2px;
 
   }
 
@@ -325,9 +325,8 @@ background-color: grey;
 }
 
 .logo{
- padding: 0px 0px;
- margin-bottom: -86px;
- visibility: hidden;
+  margin-bottom: -86px;
+  margin-left: -383px;
 
 }
 .item1 a {
@@ -370,7 +369,9 @@ background-color: grey;
 .item3 > img {
   width: 100%;
   height: 100%;
-  shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: -396px;
+      position: relative;
+      z-index: -1;
 }
 
 .item6 > img {
@@ -383,13 +384,13 @@ background-color: grey;
 }
 
 .TEXTVIDEO {
-  position: relative;
-      color: white;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-      top: 50%;
-      font-size: 20px;
+  top: 50%;
+  left: 50%;
+  color: white;
+}
+
+.TEXTVIDEO > h1 {
+font-family: arial;
 }
 ul {
   list-style-type: none;
