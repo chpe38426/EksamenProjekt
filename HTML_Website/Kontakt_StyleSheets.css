@@ -119,7 +119,9 @@ form {
 
 .item5
 {
-background-color: grey;
+  background-color: black;
+  color: white;
+  font-size: 50px;
 }
 
 .grid-container > .item7 {
@@ -226,7 +228,9 @@ ul {
 
 .item5
 {
-background-color: grey;
+background-color: black;
+color: white;
+font-size: 50px;
 }
 
 
