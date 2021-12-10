@@ -1,6 +1,6 @@
 @media only screen and (min-width: 699px) {
 ul {
-    background: white;
+    background: #555;
     margin: 0;
     padding: 30px 0px;
   }
@@ -8,10 +8,9 @@ ul {
 
   li a {
   display: inline;
-  color: black;
+  color: white;
   padding: 20px 16px;
   text-decoration: none;
-    font-family: roboto;
 }
 
 li a:hover {
