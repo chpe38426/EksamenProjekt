@@ -1,23 +1,25 @@
 @media only screen and (min-width: 699px) {
-ul {
-    background: #555;
-    margin: 0;
-    padding: 30px 0px;
+  ul {
+      background: white;
+      margin: 0;
+      padding: 30px 0px;
+    }
+
+
+    li a {
+    display: inline;
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: roboto;
+    font-weight: bold;
   }
 
+  li a:hover {
+    background-color: black;
+    color: white;
 
-  li a {
-  display: inline;
-  color: white;
-  padding: 20px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: black;
-  color: white;
-
-}
+  }
 
 div {
   text-align: center;
@@ -99,12 +101,10 @@ position: relative;
 }
 
 .item3 {
-  border: 2px solid red;
   justify-content: center;
   display: flex;
   flex-direction: row;
   overflow: hidden;
-
 }
 
 
@@ -119,9 +119,10 @@ position: relative;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 70px;
-  font-family: roboto;
-  font-weight: lighter;
+}
+
+.TEXTVIDEO > h1 {
+font-family: arial;
 }
 
 .item4 {
@@ -159,7 +160,6 @@ font-family: roboto;
   width: auto;
   max-width: 555px;
   max-height: 550px;
-  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
 
 .box_a > img {
@@ -228,20 +228,30 @@ background-color: grey;
 
 
 @media only screen and (max-width: 700px) {
-ul {
-    background: #555;
-    list-style-type: none;
+  ul {
+      background: white;
+      margin: 0;
+      padding: 30px 0px;
+
+    }
+
+
+    li a {
+    display: block;
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: roboto;
+      border: 2px;
+
   }
-  li a {
-  display: block;
-  color: black;
-  padding: 15px 0px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: black;
-  color: white;
-}
+
+  li a:hover {
+    background-color: black;
+    color: white;
+    border: 2px;
+    border-radius: 4px;
+  }
 
 .wrapper {
   display: inline-block;

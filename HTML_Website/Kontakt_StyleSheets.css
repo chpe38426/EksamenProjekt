@@ -12,6 +12,7 @@ ul {
   padding: 20px 16px;
   text-decoration: none;
   font-family: roboto;
+  font-weight: bold;
 }
 
 li a:hover {
