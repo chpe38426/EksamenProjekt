@@ -84,15 +84,16 @@ iframe {
 }
 
 .grid-container > .item6 {
-  background-color: #262322;
+  background-color: white;
   text-align: center;
   padding: 0px 0px;
   padding-right: 200px;
-  padding-top: 114px;
+  padding-top: 39px;
+  padding-bottom: 39px;
 }
 
 .grid-container > .item4 {
-  background-color: #262322;
+  background-color: white;
   text-align: left;
   padding: 0px 0px;
   padding-bottom: 100px;
@@ -140,9 +141,10 @@ font-family: arial;
 }
 
 .item4 > p {
-font-size: 25;
+font-size: 25px;
 padding-left: 170px;
-color: white;
+color: black;
+padding-right: 153px;
 font-family: roboto;
 }
 
@@ -362,7 +364,7 @@ background-color: grey;
 .grid-container > .item4 {
   background-color: #262322;
   text-align: center;
-  padding: 0px 0px;
+  padding: 1px 0px;
 }
 
 .item3 > img {
@@ -380,6 +382,8 @@ background-color: grey;
 .item7 > h1 {
   font-family: roboto;
   font-weight: bold;
+  color: white;
+  padding-top: 20px
 }
 
 .TEXTVIDEO {
@@ -400,6 +404,23 @@ ul {
 .item5
 {
 background-color: grey;
+}
+
+.item4 > p {
+font-size: 25;
+color: white;
+font-family: roboto;
+}
+
+.item4 > h2 {
+font-size: 25;
+color: grey;
+font-family: roboto;
+}
+
+.item7 {
+  background-color: #262322;
+  padding-top: 0px 0px;
 }
 
 }
