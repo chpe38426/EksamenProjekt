@@ -132,22 +132,26 @@ form {
 
 
 @media only screen and (max-width: 700px) {
-ul {
-    background: #555;
-    list-style-type: none;
+  ul {
+      background: white;
+      margin: 0;
+      padding: 30px 0px;
+    }
+
+
+    li a {
+    display: block;
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: roboto;
   }
-  li a {
-  display: block;
-  color: black;
-  padding: 15px 0px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: black;
-  color: white;
-}
 
+  li a:hover {
+    background-color: black;
+    color: white;
 
+  }
 
 .menu
 {
