@@ -56,7 +56,7 @@ position: relative;
 }
 
 .wrapper {
-  display: flex;
+      display: flex;
       grid-gap: 29px;
       background: #171616;
       width: 100%;
@@ -99,18 +99,18 @@ position: relative;
 }
 
 .item3 {
-  text-align: center;
-  padding: 50px 0px;
-  font-size: 30px;
-  position: relative;
-  padding-left: 5%;
-  padding-right: 5%;
+  border: 2px solid red;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+
 }
 
+
 .item3 > img {
-  width: 60%;
-  height: auto%;
-  background-size: cover;
+  flex: 1;
+  height: 100%;
 }
 
 .TEXTVIDEO {
