@@ -60,6 +60,22 @@ margin-top: -25px;
     float:right;
 }
 
+.PhotoKom > img {
+    float:left;
+height: 90px;
+margin-top: -25px;
+margin-left: -12px;
+}
+
+.PhotoKom {
+
+}
+
+.PhotoKom > h3
+{
+    float:right;
+}
+
 
 .kontaktboks {
   width:35%;
