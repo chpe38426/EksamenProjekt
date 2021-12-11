@@ -316,6 +316,11 @@ height: 150px;
 
 }
 
+.infoKontakt > h1, h4, h2 {
+  font-family: roboto;
+  font-weight: bold;
+  color: white;
+}
 
 }
 
