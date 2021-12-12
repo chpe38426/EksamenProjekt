@@ -121,8 +121,8 @@ form {
 {
   background-color: #101010;
   color: white;
-  font-size: 50px;
   text-align: center;
+  font-family: roboto;
 }
 
 .grid-container > .item7 {
@@ -251,8 +251,9 @@ ul {
 {
   background-color: #101010;
   color: white;
-  font-size: 50px;
   text-align: center;
+  font-family: roboto;
+  margin-top: -16px;
 }
 
 .infoKontakt > h1 {

@@ -58,10 +58,8 @@ position: relative;
 }
 
 iframe {
-  frameborder=0;
-  border=0;
-  cellspacing=0;
-
+width: 450;
+height: 545;
 }
 
 .wrapper {
@@ -149,7 +147,7 @@ font-family: roboto;
 }
 
 .item4 > h2 {
-font-size: 25;
+font-size: 55px;
 padding-left: 170px;
 color: grey;
 font-family: roboto;
@@ -321,7 +319,7 @@ background-color: grey;
 .menu
 {
   padding: 0px;
-  z-index: 9px;
+  z-index: 9;
   margin-top: 0px;
 }
 
@@ -414,7 +412,7 @@ background-color: grey;
 }
 
 .item4 > p {
-font-size: 25;
+font-size: 25px;
 color: black;
 font-family: roboto;
 }
@@ -427,7 +425,6 @@ font-family: roboto;
 
 .item7 {
   background-color: #262322;
-  padding-top: 0px 0px;
 }
 
 }
@@ -444,6 +441,3 @@ font-family: roboto;
 
 li {
   display: inline;
-  @media (max-width: 1250px){
-    display: block;
-}
