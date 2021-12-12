@@ -223,7 +223,10 @@ font-family: roboto;
 
 .item5
 {
-background-color: grey;
+  background-color: #101010;
+  color: white;
+  text-align: center;
+  font-family: roboto;
 }
 
 .grid-container > .item7 {
@@ -408,7 +411,11 @@ ul {
 
 .item5
 {
-background-color: grey;
+  background-color: #101010;
+  color: white;
+  text-align: center;
+  font-family: roboto;
+      margin-top: -16px;
 }
 
 .item4 > p {
