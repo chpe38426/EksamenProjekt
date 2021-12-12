@@ -351,14 +351,13 @@ background-color: grey;
 
 .grid-container > div {
   text-align: center;
-  padding: 0px 0px;
+  padding: 28px 0px;
 }
 
 
 .grid-container > .item6 {
-  background-color: white;
+  background-color: black;
   text-align: center;
-  padding: 0px 0px;
 }
 
 .grid-container > .item4 {
@@ -383,8 +382,16 @@ background-color: grey;
   font-family: roboto;
   font-weight: bold;
   color: white;
-  padding-top: 20px
+  padding-top: 0px;
 }
+
+.item7 > h3 {
+  font-family: roboto;
+  font-weight: bold;
+  color: white;
+  padding-top: 0px;
+}
+
 
 .TEXTVIDEO {
   top: 50%;
