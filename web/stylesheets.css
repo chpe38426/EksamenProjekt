@@ -1,5 +1,4 @@
 /*  css document */
-
 @media only screen and (min-width: 699px) {
   ul {
       background: white;
@@ -7,6 +6,10 @@
       padding: 30px 0px;
     }
 
+    .mitlogo {
+      width:115px;
+      height:80px;
+    }
 
     li a {
     display: inline;
@@ -27,6 +30,26 @@ div {
   text-align: center;
 
 }
+
+.frame2 {
+  border-style: none;
+  width: 385px;
+  height: 545px;
+}
+
+.frame1 {
+  border-style: none;
+  width: 385px;
+  height: 545px;
+}
+
+.frame3 {
+  border-style: none;
+  width: 385px;
+  height: 545px;
+}
+
+
 .grid-container {
   display: grid;
   grid-template:
@@ -98,6 +121,7 @@ height: 545;
   padding: 0px 0px;
   padding-bottom: 100px;
   padding-top: 5%;
+  margin: 0px 130px;
 
 }
 
@@ -223,6 +247,11 @@ font-family: roboto;
   float: left;
 }
 
+.mitlogo {
+  width:115px;
+  height:80px;
+}
+
 .item5
 {
   background-color: #101010;
@@ -244,6 +273,17 @@ font-family: roboto;
       margin: 0;
       padding: 30px 0px;
 
+    }
+
+    .mitlogo {
+      width:115px;
+      height:80px;
+    }
+
+    .frame2 {
+      border-style: none;
+      width: 385px;
+      height: 545px;
     }
 
 
@@ -388,6 +428,7 @@ font-family: roboto;
   padding-top: 0px;
 }
 
+
 .item7 > h3 {
   font-family: roboto;
   font-weight: bold;
@@ -409,6 +450,11 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0px 0px;
+}
+
+.mitlogo {
+  width:115px;
+  height:80px;
 }
 
 .item5
@@ -434,6 +480,18 @@ font-family: roboto;
 
 .item7 {
   background-color: #262322;
+}
+
+.frame1 {
+  border-style: none;
+  width: 385px;
+  height: 545px;
+}
+
+.frame3 {
+  border-style: none;
+  width: 385px;
+  height: 545px;
 }
 
 }

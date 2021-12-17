@@ -5,6 +5,15 @@ ul {
     padding: 30px 0px;
   }
 
+.mitlogo {
+  width:115px;
+  height:80px;
+}
+
+.some {
+  width: 53px;
+  margin-top: 41px;
+}
 
   li a {
   display: inline;
@@ -140,6 +149,16 @@ form {
 
     }
 
+    .mitlogo {
+      width:115px;
+      height:80px;
+    }
+
+
+    .some {
+      width: 53px;
+      margin-top: 41px;
+    }
 
     li a {
     display: block;
