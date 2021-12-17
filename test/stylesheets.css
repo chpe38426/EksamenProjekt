@@ -1,0 +1,452 @@
+/*  css document */
+
+@media only screen and (min-width: 699px) {
+  ul {
+      background: white;
+      margin: 0;
+      padding: 30px 0px;
+    }
+
+
+    li a {
+    display: inline;
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: roboto;
+    font-weight: bold;
+  }
+
+  li a:hover {
+    background-color: black;
+    color: white;
+
+  }
+
+div {
+  text-align: center;
+
+}
+.grid-container {
+  display: grid;
+  grid-template:
+    'header header header header header header'
+    'main main main main main main'
+    'right right right left left left'
+    'portfolio portfolio portfolio portfolio portfolio portfolio'
+    'footer footer footer footer footer footer';
+  grid-gap: 0px;
+  padding: 0px;
+}
+
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.item7 {
+width: 100%;
+height: auto;
+margin: auto;
+padding: 10px;
+position: relative;
+}
+
+.item7 > h1, h3 {
+  font-family: roboto;
+  font-weight: bold;
+  color: white;
+}
+
+iframe {
+width: 450;
+height: 545;
+}
+
+.wrapper {
+      display: flex;
+      grid-gap: 29px;
+      background: #171616;
+      width: 100%;
+      align-content: space-between;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.grid-container > .item6 {
+  background-color: white;
+  text-align: center;
+  padding: 0px 0px;
+  padding-right: 200px;
+  padding-top: 39px;
+  padding-bottom: 39px;
+}
+
+.grid-container > .item4 {
+  background-color: white;
+  text-align: left;
+  padding: 0px 0px;
+  padding-bottom: 100px;
+  padding-top: 5%;
+
+}
+
+.TEXTVIDEO > h1 {
+  font-size: 60px;
+  padding: 0px 0px;
+  color: white;
+}
+
+.item3 {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+
+.item3 > img {
+  flex: 1;
+  height: 100%;
+}
+
+.TEXTVIDEO {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.TEXTVIDEO > h1 {
+font-family: arial;
+}
+
+.item4 {
+  background-color: rgba(255, 155, 255, 0.8);
+  text-align: center;
+  padding: 90px 0px;
+  font-size: 30px;
+
+}
+
+.item4 > p {
+font-size: 25px;
+padding-left: 170px;
+color: black;
+padding-right: 153px;
+font-family: roboto;
+}
+
+.item4 > h2 {
+font-size: 55px;
+padding-left: 170px;
+color: grey;
+font-family: roboto;
+}
+
+.item6 {
+  background-color: rgba(255, 155, 255, 0.8);
+  text-align: center;
+  padding: 90px 0px;
+  font-size: 30px;
+
+}
+
+.item6 > img {
+  height: auto;
+  width: auto;
+  max-width: 555px;
+  max-height: 550px;
+}
+
+.box_a > img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 550px;
+}
+
+.box_b > img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 550px;
+}
+
+.box_c > img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 550px;
+}
+
+.box_d > img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 550px;
+}
+
+.box_e > img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 550px;
+}
+
+.box_f > img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 550px;
+}
+
+.menu{
+  float: right;
+}
+
+.menu a{
+  padding: 30px 30px;
+}
+.logo{
+  float: left;
+}
+
+.item5
+{
+  background-color: #101010;
+  color: white;
+  text-align: center;
+  font-family: roboto;
+}
+
+.grid-container > .item7 {
+  background-color: #171616;
+}
+
+}
+
+
+@media only screen and (max-width: 700px) {
+  ul {
+      background: white;
+      margin: 0;
+      padding: 30px 0px;
+
+    }
+
+
+    li a {
+    display: block;
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: roboto;
+    border: 2px;
+
+  }
+
+  li a:hover {
+    background-color: black;
+    color: white;
+    border: 2px;
+    border-radius: 4px;
+  }
+
+.wrapper {
+  display: inline-block;
+  grid-template-columns: 500px 50px 50px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 150%;
+}
+
+.box_a > img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 550px;
+}
+
+.box_b > img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 550px;
+}
+
+.box_c > img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 550px;
+}
+
+.box_d > img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 550px;
+}
+
+.box_e > img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 550px;
+}
+
+.box_f > img {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 550px;
+}
+
+.menu
+{
+  padding: 0px;
+  z-index: 9;
+  margin-top: 0px;
+}
+
+.logo{
+  margin-bottom: -86px;
+  margin-left: -383px;
+
+}
+.item1 a {
+  font-size: 20px;
+}
+
+.grid-container {
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.5fr 1fr
+  1fr 1.5fr;
+  grid-template-areas:
+    'header'
+    'main'
+    'right'
+    'left'
+    'portfolio'
+    'footer';
+  grid-gap: 0px;
+  padding: 0px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 28px 0px;
+}
+
+
+.grid-container > .item6 {
+  background-color: black;
+  text-align: center;
+}
+
+.grid-container > .item4 {
+  background-color: white;
+  text-align: center;
+  padding: 1px 62px;
+}
+
+.item3 > img {
+  width: 100%;
+  height: 100%;
+  margin-top: -396px;
+      position: relative;
+      z-index: -1;
+}
+
+.item6 > img {
+  height:280px;
+}
+
+.item7 > h1 {
+  font-family: roboto;
+  font-weight: bold;
+  color: white;
+  padding-top: 0px;
+}
+
+.item7 > h3 {
+  font-family: roboto;
+  font-weight: bold;
+  color: white;
+  padding-top: 0px;
+}
+
+
+.TEXTVIDEO {
+  top: 50%;
+  left: 50%;
+  color: white;
+}
+
+.TEXTVIDEO > h1 {
+font-family: arial;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px;
+}
+
+.item5
+{
+  background-color: #101010;
+  color: white;
+  text-align: center;
+  font-family: roboto;
+      margin-top: -16px;
+}
+
+.item4 > p {
+font-size: 25px;
+color: black;
+font-family: roboto;
+}
+
+.item4 > h2 {
+font-size: xx-large;
+color: black;
+font-family: roboto;
+}
+
+.item7 {
+  background-color: #262322;
+}
+
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.item6 { grid-area: left; }
+.item7 { grid-area: portfolio;}
+
+
+
+li {
+  display: inline;
